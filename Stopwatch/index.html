@@ -1,0 +1,57 @@
+<html>
+<header>
+    <title>stopwatch</title>
+    <style>
+        body{
+            font-family:  Helvetica;
+            line-height: 1.6;
+            text-align: center;
+        }
+        h1{
+            font-size: 30px;
+        }
+        #container{
+            margin:auto;
+            margin-top: 100px;
+            width:500px;
+            background-color:teal; 
+            padding: 3rem 2rem;
+            border-radius: 5px;
+        }
+        #counter{
+            margin: auto;
+            margin-bottom: 20px;
+            height:60px;
+            width: 100px;
+            border-radius: 5px;
+            border: 2px solid lightgray;
+            font-size: 40px;
+            padding: 1rem;
+            background-color:#fff;
+        }
+        button{
+            font-size: 20px;
+            width:40%;
+            margin:10px;
+            border:1px solid lightgray;
+            border-radius: 5px;
+            background-color:#fff;
+            }
+
+    </style>
+</header>
+<body>
+
+<section id="container">
+    <h1>Stopwatch</h1>
+    <div id="counter">00:00</div>
+    <form>
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+    </form>
+</section>
+
+<script src="js.js"></script>
+</body>
+</html>
